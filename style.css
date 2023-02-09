@@ -3,6 +3,30 @@
     font-family: sofia-pro;
   }
 
+.title {
+    font-size: 48px;
+    font-weight: 1000;
+    line-height: 52px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#methodology {
+    font-size: 36px;
+    font-weight: 1000;
+    line-height: 40px;
+    margin-bottom: 20px;
+    margin-top: 5%;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+}
+
+.methodPara {
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+}
+
 .taxyear {
     text-align: center;
     font-family: "Helvetica", Arial, sans-serif;
@@ -120,7 +144,12 @@
     align-self: center;
 
 }
-  
+
+.lede {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 
  .name-logo a{
     color: black;
@@ -136,25 +165,78 @@
     padding-right: 0.5rem;
 }
 
+.boldBoxText {
+    padding-left: 10%;
+    color:red;
+    font-weight: bold;
+}
+
 #netAssetsExpand {
     max-height: 0px;
     overflow: hidden;
     transition: all .3s ease;
 }
 
-#netAssetsExpand.expand {
-        max-height: fit-content;
-}
-
-
-#hello {
+#grossExpand {
     max-height: 0px;
     overflow: hidden;
     transition: all .3s ease;
 }
 
-#hello.expand {
-        max-height: fit-content;
+
+#investmentExpand {
+    max-height: 0px;
+    overflow: hidden;
+    transition: all .3s ease;
 }
 
+#expensesExpand {
+    max-height: 0px;
+    overflow: hidden;
+    transition: all .3s ease;
+}
 
+#revenueExpand {
+    max-height: 0px;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+
+#expensesExpand.expand {
+    max-height: fit-content;
+    padding-bottom: 5%;
+}
+
+#investmentExpand.expand {
+    max-height: fit-content;
+    padding-bottom: 5%;
+
+}
+
+#grossExpand.expand {
+    max-height: fit-content;
+    padding-bottom: 5%;
+
+}
+
+#investOne {
+    padding-top: 2.5%;
+}
+
+#netAssetsExpand.expand {
+    max-height: fit-content;
+    padding-bottom: 5%;
+}
+
+#revenueExpand.expand {
+    max-height: fit-content;
+    padding-bottom: 5%;
+}
+
+#netAssetsOne {
+    padding-top: 5%;
+}
+
+#grossOne {
+    padding-top: 5%;
+}
