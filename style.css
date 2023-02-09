@@ -118,8 +118,7 @@
 
 .a4 {
     align-self: center;
-    margin-left: 10%;
-    margin-right: 10%;
+
 }
   
 
@@ -136,3 +135,26 @@
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
+
+#netAssetsExpand {
+    max-height: 0px;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+
+#netAssetsExpand.expand {
+        max-height: fit-content;
+}
+
+
+#hello {
+    max-height: 0px;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+
+#hello.expand {
+        max-height: fit-content;
+}
+
+

@@ -530,8 +530,13 @@
                   <div class="row">
                     <div class="col-md-9">
                       <div class="number">4</div>
-                      <div class="question">
+                      <div id="investments" class="question" style="background-color: yellow; cursor: pointer;">
                         Investment income
+                      </div>
+                      <div class="" id="#hello">
+                        hello
+                        <!-- <div id="investOne" hidden="true" class="flourish-embed flourish-chart" data-src="visualisation/12540315"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                        <div id="investTwo" hidden="true" class="flourish-embed flourish-chart" data-src="visualisation/12540323"><script src="https://public.flourish.studio/resources/embed.js"></script></div> -->
                       </div>
                       <dots-tab class="hidden-sm-down"></dots-tab>
                     </div>
@@ -969,8 +974,23 @@
                   <div class="row">
                     <div class="col-md-9">
                       <div class="number">21</div>
-                      <div class="question">
+                      <div id="netAssets" class="question" style="background-color: yellow;  cursor: pointer;">
                         Net assets or fund balances at end of year. Combine lines 18 through 20  
+                      </div>
+                      <div class="" id="netAssetsExpand">
+                        First, you may be wondering, which club is the richest of them all? 
+                        Ivy Club takes the crown, with their most recent net valuation at 9,089,607 dollars. However, Cap and Gown Club and 
+                        Tiger Inn take a close second and third place with valuations of 8,058,989 dollars and 6,979,512 dollars, respectively. 
+                        Net valuation is the sum of how much cash, stock, and property the club has minus all debts. Ivy Club used to be the most 
+                        affluent club, but has since seen a decline in assets since 2014. On the flip side, despite Quadrangle Club and Cloister 
+                        Inn being the least wealthy clubs, with net assets of 752,720 dollars and 602,212 dollars, their finance have been relatively
+                        stable over the years. Since the largest assets of clubs are in the building and land, property value directly correlates
+                         to the total asset. Ivy reported their building and land to be worth almost 7.5 million dollars, more than 20 times what 
+                         Cloister reported for its building and land. Meanwhile Quadrangle and Cloister have substantial accumulated depreciation 
+                         of their properties, losing around 70 percent of the original land and property value to depreciation. In mid 2020, Quad 
+                         reported its property, comprising the building and 1.2 acres of land, to be just below 600,000 dollars, drastically
+                          different from the official assessment of the property from the county at 2.2 millions dollars, indicating an even higher
+                        market value. 
                       </div>
                       <dots-tab class="hidden-sm-down"></dots-tab>
                     </div>
@@ -985,7 +1005,19 @@
                   <!-- END -->
                   </div>
                 </div>
-                    <!--PART ONE CONTINUED END-->   
+                 
+                <script>
+                  document.getElementById('netAssets').addEventListener('click', function() {
+                  document.getElementById('netAssetsExpand').classList.toggle('expand');
+                  });
+
+                  document.getElementById('investments').addEventListener('click', function() {
+                    console.log(document.getElementById('hello'));
+                  // document.getElementById('hello').classList.toggle('expand')
+                  // document.getElementById('investOne').toggleAttribute("hidden");
+                  // document.getElementById('investTwo').toggleAttribute("hidden");
+                  });
+                </script>
 
               </section>
             </div>
